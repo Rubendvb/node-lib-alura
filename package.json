@@ -1,25 +1,31 @@
 {
-  "name": "2708-node-lib-md",
+  "name": "node-search-links-lib",
   "version": "1.0.0",
-  "description": "",
+  "description": "Extração de links é um ou vários arquivos de texto",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cli": "node ./src/cli.js ./arquivos/texto.md",
+    "cli": "node ./src/cli.js",
     "cli:valida": "node ./src/cli.js ./arquivos/texto.md --valida"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
+    "url": "git+https://github.com/Rubendvb/node-lib-alura.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "markdown",
+    "URL",
+    "Links"
+  ],
+  "bin": {
+    "node-search-links-lib": "./cli.js"
+  },
+  "preferGlobal": true,
+  "author": "Rubén Vásquez",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
-  },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
+  "bugs": "https://github.com/Rubendvb/node-lib-alura/issues",
+  "homepage": "https://github.com/Rubendvb/node-lib-alura",
   "dependencies": {
     "chalk": "^5.0.1"
   }
